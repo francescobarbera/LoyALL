@@ -21,6 +21,8 @@
 		D90402AB18F9A55D00D702F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D904028D18F9A55D00D702F6 /* UIKit.framework */; };
 		D90402B318F9A55D00D702F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90402B118F9A55D00D702F6 /* InfoPlist.strings */; };
 		D90402B518F9A55E00D702F6 /* loyALLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90402B418F9A55D00D702F6 /* loyALLTests.m */; };
+		D90402C618F9A5B900D702F6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90402C418F9A5B900D702F6 /* MainViewController.m */; };
+		D90402C718F9A5B900D702F6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90402C518F9A5B900D702F6 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D90402B018F9A55D00D702F6 /* loyALLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loyALLTests-Info.plist"; sourceTree = "<group>"; };
 		D90402B218F9A55D00D702F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D90402B418F9A55D00D702F6 /* loyALLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loyALLTests.m; sourceTree = "<group>"; };
+		D90402C318F9A5B900D702F6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D90402C418F9A5B900D702F6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D90402C518F9A5B900D702F6 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				D904029818F9A55D00D702F6 /* loyALLAppDelegate.h */,
+				D90402C318F9A5B900D702F6 /* MainViewController.h */,
+				D90402C418F9A5B900D702F6 /* MainViewController.m */,
+				D90402C518F9A5B900D702F6 /* MainViewController.xib */,
 				D904029918F9A55D00D702F6 /* loyALLAppDelegate.m */,
 				D904029B18F9A55D00D702F6 /* Main.storyboard */,
 				D904029E18F9A55D00D702F6 /* loyALLViewController.h */,
@@ -232,6 +240,7 @@
 				D90402A218F9A55D00D702F6 /* Images.xcassets in Resources */,
 				D904029418F9A55D00D702F6 /* InfoPlist.strings in Resources */,
 				D904029D18F9A55D00D702F6 /* Main.storyboard in Resources */,
+				D90402C718F9A5B900D702F6 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 				D90402A018F9A55D00D702F6 /* loyALLViewController.m in Sources */,
 				D904029618F9A55D00D702F6 /* main.m in Sources */,
 				D904029A18F9A55D00D702F6 /* loyALLAppDelegate.m in Sources */,
+				D90402C618F9A5B900D702F6 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
